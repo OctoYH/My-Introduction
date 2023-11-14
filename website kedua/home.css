@@ -1,0 +1,145 @@
+*,html {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+    width: 700px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+/* navbar */
+.div-navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.ul-navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.li-navbar-1 {   
+    list-style-type: none;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    font-style: unset;
+}
+
+.li-navbar-1:hover {
+    background-color: #660000;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 55px;
+    
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: red;
+}
+
+/* navbar end */
+
+/* footer */
+.div-footer {
+    background-color: black;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.ul-footer {
+
+}
+
+.p-footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: red;
+    font-size: 35px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    
+    
+}
+
+.p-footer-1 {
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+      
+}
+
+
+
+
+
+
+
+/* footer end */
+
+/* content */
+.div-content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+   
+}
+
+.ul-content {
+    
+
+}
+
+.img-content {
+    text-decoration: none;
+    width: 600px;
+    height: 450px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    border: 3px solid red;
+
+}
+
+.img-content-1 {
+    border-radius: 35px;
+    background-color: white;
+    
+
+}
+
+/* content */
